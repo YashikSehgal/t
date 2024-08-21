@@ -1,0 +1,45 @@
+.main-banner{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-banner img{
+    width: 100%;
+}
+
+.main-banner button{
+    position: absolute;
+    padding: 30px 15px;
+    background: rgba(128, 128, 128, 0.308);
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 34px;
+}
+
+.main-banner #leftButton{
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-banner #rightButton{
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .main-banner button{
+        font-size: 24px;
+        padding: 24px 10px;
+    }
+
+    
+}
+
+
+

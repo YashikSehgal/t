@@ -1,0 +1,88 @@
+.projectsSection{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 50px;
+    margin: 20px auto;
+
+}
+
+.projectItem{
+    width: 250px;
+    height: 100px;
+    border: none;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.projectItem p{
+    font-size: 36px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(88, 88, 214), rgba(213, 100, 100, 0.845));
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+button#viewMoreprojects-desktop, button#viewMoreprojects-mob{
+        display: flex;
+        margin: 5px auto;
+        font-size: 24px;
+        background-color: rgb(255, 73, 73);
+        outline: 1px solid black;
+        padding: 6px 15px;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .projectsMobileSection{
+        display: none;
+    
+    }
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .projectsdesktopSection{
+        display: none;
+    }
+
+
+
+
+    .projectsMobileSection{
+        display: block;
+        margin: auto;
+    }
+
+
+    .projectsMobSection{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .projectItem{
+        width: 200px;
+        height: 80px;
+       
+    }
+    
+    .projectItem p{
+        font-size: 24px;
+        
+    }
+}   
+
+
+
+/*................Calculator...............*/  
+
+/*So basically when we click on the project1, 2, 3 etc. classes. it will open a popup which is mentioned in the class calculator etc*/

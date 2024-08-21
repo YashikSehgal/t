@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+progress {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 111; /* Ensure it's above other elements */
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: #f0f0f0; /* Background color of the unfilled bar */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    height: 1px; /* Adjust the height to make the bar thinner */
+  }
+
+  
+  ::-webkit-scrollbar{
+    background-color: #ffffff; 
+    scrollbar-width: 5px;
+   
+    }
+   
+   ::-webkit-scrollbar-thumb{
+       background: linear-gradient(#ffffffd7, #ffffffd7, #ffffffd7, #4e5450);
+       border-radius: 200px;
+       height: 6px;
+   }
+   
